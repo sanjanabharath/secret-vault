@@ -1,8 +1,14 @@
 import React from 'react'
 
-const LandingButton = () => {
+interface IProps{
+    className?: string,
+    text: string,
+    onClick?: () => void;
+}
+
+const LandingButton = ({className, text, onClick}: IProps) => {
   return (
-    <div>LandingButton</div>
+    <div className={`btnNeon ${className}`} onClick={onClick}><div>{text}</div></div>
   )
 }
 
