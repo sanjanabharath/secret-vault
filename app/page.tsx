@@ -2,6 +2,8 @@
 
 import { useRouter } from "next/navigation";
 import LandingButton from "@/components/Buttons/LandingButton";
+import FeatureSection from "@/components/Sections/Features/FeatureSection";
+import Footer from "@/components/Sections/Footer/Footer";
 
 
 export default function Home() {
@@ -17,9 +19,9 @@ export default function Home() {
           router.push("/app")
         }}></LandingButton></div>
       </section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section className="page_section flex_center flex-col py-8" id="features-section"><h1 className="text_primary_gradient text_heading_size">Features</h1><FeatureSection/></section>
+      <section className="page_section flex_center flex-col"><Footer /></section>
+      
     </main>
   );
 }

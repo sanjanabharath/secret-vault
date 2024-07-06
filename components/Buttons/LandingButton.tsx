@@ -1,4 +1,5 @@
 import React from 'react'
+import '@/style/buttonStyle.css'
 
 interface IProps{
     className?: string,
@@ -8,7 +9,16 @@ interface IProps{
 
 const LandingButton = ({className, text, onClick}: IProps) => {
   return (
-    <div className={`btnNeon ${className}`} onClick={onClick}><div>{text}</div></div>
+    <div className={`buttonNeon ${className}`}
+            onClick={onClick}
+        >
+            <div> <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                {text}
+            </div>
+        </div>
   )
 }
 
