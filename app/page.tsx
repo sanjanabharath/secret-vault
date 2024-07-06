@@ -19,7 +19,7 @@ export default function Home() {
           router.push("/app")
         }}></LandingButton></div>
       </section>
-      <section className="page_section flex_center flex-col py-8" id="features-section"><h1 className="text_primary_gradient text_heading_size">Features</h1><FeatureSection/></section>
+      <section className="page_section flex_center flex-col py-8" id="features-section"><h1 className="text_primary_gradient text_heading_size">Features</h1><p className='w-10/12 md:w-8/12 text-center text-sm mb-12 mt-4'>DataVault is a comprehensive data storage solution that prioritizes the security and privacy of your sensitive information. Here are some key features and benefits of DataVault:</p><FeatureSection/></section>
       <section className="page_section flex_center flex-col"><Footer /></section>
       
     </main>
