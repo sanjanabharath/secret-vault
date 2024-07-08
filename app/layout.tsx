@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}><Navigation/>{children}</body>
+      <body className='body bg_primary text-text-color overflow-x-hidden'><Navigation/>{children}</body>
     </html>
   );
 }
