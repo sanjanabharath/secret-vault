@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import IconButton from "@/components/Buttons/IconButton";
 import { FiMenu } from "react-icons/fi";
