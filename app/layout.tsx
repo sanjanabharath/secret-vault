@@ -17,7 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className='body bg_primary text-text-color overflow-x-hidden'><Navigation/>{children}</body>
+      {/* check for navigation */}
+      <body className="body bg_primary text-text-color overflow-x-hidden">
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }

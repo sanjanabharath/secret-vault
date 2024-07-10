@@ -102,7 +102,7 @@ function DrawerContent({
               className="flex_center cursor-pointer pt-2 mb-4"
             >
               <Image
-                src="/assests/main-2-logo.png"
+                src="/assets/main-2-logo.png"
                 width={120}
                 height={120}
                 alt="Picture"
